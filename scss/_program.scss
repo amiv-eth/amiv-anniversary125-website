@@ -1,0 +1,81 @@
+// Styling for the program section
+.program {
+  .col-md {
+    padding-left: 0pt;
+    padding-right: 0pt;
+    margin-bottom: 15px;
+  }
+  .card {
+    border: 0px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-header {
+    font-weight: bold;
+    font-size: 16pt;
+    color: $black;
+    background-color: $white;
+    border: 0px;
+  }
+  .card-body {
+    border: 3pt $white solid;
+    padding: 0pt;
+    text-align: center;
+    display: table;
+    width: 100%;
+    div {
+      padding: 3pt;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .gap {
+    background-color: $primary;
+  }
+  .gap-0 {
+    @extend .gap;
+    height: 25pt;
+  }
+  .gap-1 {
+    @extend .gap;
+    height: 50pt;
+  }
+  .gap-2 {
+    @extend .gap;
+    height: 75pt;
+  }
+  .gap-3 {
+    @extend .gap;
+    height: 100pt;
+  }
+  .gap-4 {
+    @extend .gap;
+    height: 125pt;
+  }
+  .event {
+    background-color: $secondary;
+    color: $white;
+  }
+  .event-1 {
+    @extend .event;
+    height: 50pt;
+    div {
+      height: 44pt;
+    }
+  }
+  .event-2 {
+    @extend .event;
+    height: 75pt;
+    div {
+      height: 69pt;
+    }
+  }
+  .event-3 {
+    @extend .event;
+    height: 100pt;
+    div {
+      height: 94pt;
+    }
+  }
+}
