@@ -16,7 +16,7 @@ deploy:
     - ssh -p22 amivanniversary@login.ee.ethz.ch "mkdir -p ~/public_html_tmp/"
     - rsync -rav -e ssh --exclude='.git/' --exclude='.gitlab-ci.yml' --delete-excluded ./ amivanniversary@login.ee.ethz.ch:~/public_html_tmp
     - ssh -p22 amivanniversary@login.ee.ethz.ch "mv ~/public_html ~/public_html_old && mv ~/public_html_tmp ~/public_html && chmod -R 700 ~/public_html"
-    - ssh -p22 amivcheckin@login.ee.ethz.ch "rm -rf ~/public_html_old"
+    - ssh -p22 amivanniversary@login.ee.ethz.ch "rm -rf ~/public_html_old"
   environment:
     name: production
     url: https://125jahre.amiv.ethz.ch
