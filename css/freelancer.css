@@ -227,7 +227,8 @@ header.masthead {
     vertical-align: middle; }
 
 .program .gap, .program .gap-0, .program .gap-1, .program .gap-2, .program .gap-3, .program .gap-4 {
-  background-color: #1F2D54; }
+  background-color: #1F2D54;
+  display: none; }
 
 .program .gap-0 {
   height: 25pt; }
