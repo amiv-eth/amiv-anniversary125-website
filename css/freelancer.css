@@ -264,6 +264,12 @@ header.masthead {
   .program .event-3 div {
     height: 94pt; }
 
+.sponsor {
+  height: 40px;
+  float: left;
+  vertical-align: bottom;
+  min-width: 200px; }
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef; }
